@@ -1,0 +1,81 @@
+*{
+    border: none;
+    border-radius: 15px;
+    gap: 15px;
+}
+.main{
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(7,50px) ;
+    grid-template-areas: "head head head head head head head head head head" 
+    "aside aside aside"
+     "nav nav nav nav nav nav nav"
+     "artical artical artical artical artical artical artical"
+     " foot foot foot foot foot foot foot foot foot foot   ";
+}
+.h2{
+    grid-area: head;
+    display: grid;
+    grid-column-end: 5 ;
+    grid-column-start: 1 ;
+    grid-row-start: 1;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgb(225, 255, 0);
+    font-size: 50px;
+}
+.Nav{
+    grid-area: nav;
+    display: grid;
+    height: 50px;
+    font-size: 50px;
+    grid-column-start: 2 ;
+    grid-column-end: 5 ;
+    grid-row-start: 2;
+    text-align: center;
+    
+    
+    color: white;
+    background-color: blue;
+}
+.sidebar{
+    grid-area: aside;
+    display: grid;
+    grid-column-start: 1 ;
+    grid-column-end: 2 ;
+    grid-row-start: 2;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(226, 43, 43);
+}
+.article{
+    grid-area: artical;
+    display: grid;
+    grid-column-start: 2 ;
+    grid-column-end: 5 ;
+    grid-row-start: 3;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.338);
+}
+.footer{
+    grid-area: foot; 
+    grid-area: artical;
+    display: grid;
+    height: 50px;
+    grid-column-start: 1 ;
+    grid-column-end: 5 ;
+    grid-row-start: 9;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+span{
+    font-size: 15px;
+    text-align: start;
+}

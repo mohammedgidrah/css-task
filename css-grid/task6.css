@@ -1,0 +1,19 @@
+*{
+    text-align: center;
+justify-content: space-between;
+}
+.main{
+    background-color: color-mix(in srgb, pink 50%, purple 50%);
+    display: grid;
+    grid-template-columns: repeat(8,50px);
+    grid-template-rows:  repeat(5, 25px);
+    gap: 5px;
+}
+.three{
+    grid-row-start: 4;
+    grid-column: span 9;
+    background-color: rgb(238, 187, 47);
+}
+div{
+    background-color: rgb(238, 187, 47);
+}

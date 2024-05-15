@@ -1,0 +1,24 @@
+.main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    
+}
+div img{
+    width: 200px;
+}
+div{
+    width: 230px;
+}
+.img2{
+    height: 135px;
+}
+.img5{
+    height: 150px;
+}
+.img4{
+    height: 150px;
+}
+.img8{
+    height: 150px;
+}

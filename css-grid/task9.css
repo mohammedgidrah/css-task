@@ -1,0 +1,31 @@
+.main{
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+
+}
+.red{
+    background-color: rgb(255, 0, 0);
+    width: 700px;
+    height: 550px;
+    opacity: 50%;
+    color: black;
+}
+.blue{
+    background-color: blue;
+    grid-column-start: 2;
+    color: black;
+    opacity: 50%;
+    width: 700px;
+    height: 550px;
+    grid-row-start: 2;
+}
+.green{
+    background-color: green;
+    grid-column-start: 3;
+    color: black;
+    width: 700px;
+    height: 550px;
+    grid-row-start: 3;
+
+}

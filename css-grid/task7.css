@@ -1,0 +1,27 @@
+.main{
+    width: auto;
+    border: solid black;
+    height: 330px; 
+    justify-content: space-around;
+
+}
+.child{
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 25px;
+    gap: 25px;
+    height: 250px;
+    border: solid black;
+}
+div div div{
+    border: solid;
+    color: white;
+    background-color: rgb(139, 121, 121);
+    width: 90px;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+}
